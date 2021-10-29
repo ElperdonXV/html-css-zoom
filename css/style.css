@@ -90,25 +90,32 @@ main {
     background-color: black;
 }
 
-.nav-bottom col-left{
+.nav-bottom .col-left{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-basis: 25%;
+    flex-basis: 15%;
 }
 
-.nav-bottom col-center{
+.nav-bottom .col-center{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-basis: 50%;
+    flex-basis: 70%;
 }
 
-.nav-bottom col-right{
+.nav-bottom .col-right{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-basis: 25%;
+    flex-basis: 15%;
 }
 
+.nav-bottom ul{
+    list-style: none;
+    color: white;
+}
 
+.icona i{
+    font-size: 2em;
+}
