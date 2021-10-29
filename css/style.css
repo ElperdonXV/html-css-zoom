@@ -60,13 +60,11 @@ main {
 }
 
 .img-user{
-    display: flex;
-    flex-basis: calc( (100% / 7) - 7px);
     position: relative;
 }
 
 .img-user img{
-    max-width: 100%;
+    width: 250px;
 
 }
 
@@ -89,3 +87,5 @@ main {
     height: 100px;
     background-color: black;
 }
+
+
