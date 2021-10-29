@@ -6,6 +6,7 @@
 
 html{
     font-size: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -115,7 +116,17 @@ main {
     list-style: none;
     color: white;
 }
+.icona{
+    text-align: center;
+    font-size: 1.1em;
+}
 
 .icona i{
-    font-size: 2em;
+    font-size: 1.5em;
 }
+
+.icona div{
+    margin-top: 0.2em;
+}
+
+
