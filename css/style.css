@@ -8,3 +8,62 @@ html{
     font-size: 100%;
 }
 
+body{
+    height: 100vh;
+}
+
+.nav-top{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.btn-container{
+    height: 100%;
+    margin-right: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+.top-btn{
+    background-color: grey;
+    color: white;
+}
+main {
+  display: flex;
+  height: calc(100% - 150px);
+  background-color: black;
+  flex-wrap: wrap;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.img-user{
+    width: 18%;
+    
+}
+
+.img-user img{
+    max-width: 100%;
+}
+
+
+.nav-bottom{
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
