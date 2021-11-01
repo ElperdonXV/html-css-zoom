@@ -93,21 +93,22 @@ main {
 
 .nav-bottom .col-left{
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     align-items: center;
     flex-basis: 15%;
 }
 
 .nav-bottom .col-center{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-basis: 70%;
 }
 
 .nav-bottom .col-right{
     display: flex;
-    justify-content: space-around;
+    height: 100%;
+    justify-content: right;
     align-items: center;
     flex-basis: 15%;
 }
@@ -118,15 +119,38 @@ main {
 }
 .icona{
     text-align: center;
-    font-size: 1.1em;
+    font-size: 0.8em;
+    margin: 0 2em;
 }
 
 .icona i{
-    font-size: 1.5em;
+    font-size: 2.5em;
+    margin-top: 0.5em;
 }
 
 .icona div{
-    margin-top: 0.2em;
+    margin-top: 0.8em;
 }
 
+.green-ico i{
+    color: chartreuse;
+}
 
+.end-btn {
+    height: 100px;
+    background-color: rgb(100, 99, 99);
+}
+
+.end-btn a {
+    text-decoration: none;
+    line-height: 100px;
+    color: red;
+    padding: 0 2em;
+}
+
+.more{
+    
+    text-align: center;
+    font-size: 0.3em;
+    margin: 0 2em;
+}
